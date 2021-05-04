@@ -5,11 +5,9 @@
     <title>Nathalie's Apps</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
-</html>
 
   <body>
     <header>
@@ -19,8 +17,14 @@
     </header>
     <main>
       <div class="grid">
-        <div class="app-container">
-          <h2>Random HEX-Color Creator</h2>
+        <div class="app-container" id="color-flipper-container">
+          <h2>Random HEX-Color Generator</h2>
+          <div class="app-1" id="app-1">
+            <button type="button" name="button" class="button" id="btn">CLICK ME</button>
+            <div class="text-container">
+              <span class="bg-color-text">Background Color: #</span><span class="hex-color" id="hex-color">ED7BF8</span><br>
+            </div>
+          </div>
         </div>
         <div class="app-container">
           <h2>Safe Password Creator</h2>
@@ -37,3 +41,5 @@
       <h3></h3>
     </footer>
   </body>
+  <script src="script.js"></script>
+</html>
