@@ -28,18 +28,32 @@
         </div>
         <div class="app-container">
           <h2>Safe Password Creator</h2>
-        </div>
-        <div class="app-container">
-          <h2>Chat App</h2>
-        </div>
-        <div class="app-container">
-          <h2>ETC</h2>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <h3></h3>
-    </footer>
+          <div class="app-1" id="app-1">
+            <button type="button" name="button" class="button" id="password-btn">CLICK ME</button>
+            <div class="text-container">
+              <span class="pw-text">Password:</span><br>
+              <span class="hex-color" id="hex-color">00000000000</span>
+            </div>
+          </div>
+         </div>
+         <div class="app-container">
+           <h2>Chat App</h2>
+           <div class="discussion-box" id="discussion-box"></div>
+           <form>
+             <label for="message"></label>
+
+             <input type="text" id="message" name="message" value="Type your message..." onfocus='if(this.value=="Type your message..."){this.value="";}' class="input-text">
+             <input type="button" value="SEND" class="send-button" id="send-button">
+           </form>
+         </div>
+         <div class="app-container">
+           <h2>ETC</h2>
+         </div>
+       </div>
+     </main>
+     <footer>
+       <h3></h3>
+     </footer>
   </body>
   <script src="script.js"></script>
 </html>

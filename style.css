@@ -68,6 +68,13 @@ p {
   border-radius: 10px;
   border: none;
   margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  border: 3px solid black;
+  color: black;
+  margin-bottom: 4px;
 }
 
 .bg-color-text {
@@ -78,9 +85,44 @@ p {
 .text-container {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 }
 
 .hex-color {
   font-size: 24px;
+}
+
+/* Chat app */
+.input-text {
+  color: grey;
+}
+
+.send-button {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  color: #7c6b7a;
+  background-color: #f9f0f8;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+}
+
+.send-button:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.discussion-box {
+  min-width: 400px;
+  min-height: 100px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
